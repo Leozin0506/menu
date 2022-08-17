@@ -1,0 +1,83 @@
+h1{
+    margin-left:30px;
+    color:rgb(255, 196, 0);
+    font-size:xx-large;
+}
+h2{
+    text-align:center;
+    color:rgba(60, 191, 224, 0.747);
+    
+}
+h3{
+    color:rgba(38, 238, 38, 0.747);
+}
+p{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    
+}
+
+
+.form *{
+    border:solid;
+}
+
+.form{
+    background-color: rgb(93, 172, 126);
+    display:flex;
+    justify-content:space-between;
+}
+
+.jogos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.game{
+    position:relative;
+}
+
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.game:hover p{
+    opacity:1;
+
+}
+
+.game:hover img{
+    opacity:0.22;
+
+}
+
+.rodape{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.menu{
+    margin-right:25px;
+    margin-top:65px;
+}
+
+.menu a{
+    margin-left:25px;
+}
+
+body{
+    background-color:#00808f;
+}
+
+a:link{
+    color:rgb(94, 78, 187);
+}
+a:visited{
+    color:indigo;
+}
+
